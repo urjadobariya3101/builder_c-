@@ -6,7 +6,7 @@ class bill{
 	
 	public:
 		
-		int id;
+		int num;
 		char name[40];
 		int qty;
 		int tax;
@@ -15,7 +15,7 @@ class bill{
 		int setter(){
 			
 			cout<<"Enter Item Number : ";
-			cin>>id;
+			cin>>num;
 			
 			cout<<"Enter Item Name : ";
 			cin>>name;
@@ -35,11 +35,11 @@ class bill{
 		
 		void getter(){
 			
-			cout<<id<<endl;
-			cout<<name<<endl;
-			cout<<qty<<endl;
-			cout<<tax<<endl;
-			cout<<dis<<endl<<endl;
+			cout<<"Item Number : "<<num<<endl;
+			cout<<"Name : "<<name<<endl;
+			cout<<"Quantity : "<<qty<<endl;
+			cout<<"Tax : "<<tax<<endl;
+			cout<<"Discount : "<<dis<<endl<<endl;
 		
 		}
 		
